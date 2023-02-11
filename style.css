@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap);
+
+body {
+  font-family: 'Karla', sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 6.25%;
+}
+body {
+  display: grid;
+  place-content:center;
+min-height: 100vh;
+background-color:hsl(204, 43%, 93%) ;
+font-family: Karla;
+}
+main {
+  max-width: 90%;
+  justify-self: center;
+  border-radius:15rem ;
+  overflow: hidden;
+}
+div{
+  display:flex;
+  flex-direction: column;
+  font-size:16rem ;
+gap: 20rem;
+padding: 25rem;
+}
+.content {
+background-color: white;
+}
+.content h1 {
+  color:hsl(179, 62%, 43%);
+}
+.content p {
+  color: hsl(218, 22%, 67%);
+}
+.money-back {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+.grid-2-columns {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+ 
+}
+.grid-2-columns h1 {
+  color: white;
+}
+.grid-2-columns div:nth-of-type(1) {
+  background-color:hsl(179, 62%, 43%);
+}
+.grid-2-columns div:nth-of-type(1) p {
+  color: white;
+}
+.dollar-baseline{
+  display: flex;
+  align-items:center ;
+  gap: 15rem;
+}
+.dollar {
+  font-size: 30rem;
+}
+.month {
+  color: rgba(255, 255, 255, 0.7);
+}
+button {
+  cursor: pointer;
+  padding:15rem 0 ;
+width: clamp(30%, 85%,300px);
+  align-self: center;
+  border-radius: 5rem;
+  border: none;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  font-size: 18rem;
+}
+
+.grid-2-columns div:nth-of-type(2) {
+  background-color: hsla(179, 62%, 43%, 0.80);
+}
+.grid-2-columns div:nth-of-type(2) p {
+  max-width: 25ch;
+  color:white;
+}
